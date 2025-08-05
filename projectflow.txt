@@ -1,0 +1,2 @@
+1. create git repo and clone it in local
+2. create mycode.py
