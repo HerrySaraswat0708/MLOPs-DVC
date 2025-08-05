@@ -8,8 +8,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# new_row_1 = {'Name': 'David', 'Age': 28, 'City': 'San Francisco'}
-# df = df.append(new_row_1, ignore_index=True)
+new_row_1 = {'Name': 'David', 'Age': 28, 'City': 'San Francisco'}
+df.loc[len(df.index)] = new_row_1
 
 # new_row_2 = {'Name': 'David', 'Age': 28, 'City': 'San Francisco'}
 # df = df.append(new_row_2, ignore_index=True)
